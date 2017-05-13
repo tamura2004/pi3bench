@@ -1,0 +1,42 @@
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking air (be patient)
+
+
+Server Software:        
+Server Hostname:        air
+Server Port:            3000
+
+Document Path:          /pcs
+Document Length:        1172 bytes
+
+Concurrency Level:      100
+Time taken for tests:   2.107 seconds
+Complete requests:      300
+Failed requests:        0
+Total transferred:      422100 bytes
+HTML transferred:       351600 bytes
+Requests per second:    142.37 [#/sec] (mean)
+Time per request:       702.381 [ms] (mean)
+Time per request:       7.024 [ms] (mean, across all concurrent requests)
+Transfer rate:          195.62 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        1  286 448.4      2    1011
+Processing:    28  309 230.0    164     653
+Waiting:       23  307 230.1    163     652
+Total:         70  594 541.5    604    1653
+
+Percentage of the requests served within a certain time (ms)
+  50%    604
+  66%    644
+  75%   1155
+  80%   1267
+  90%   1467
+  95%   1566
+  98%   1623
+  99%   1649
+ 100%   1653 (longest request)
