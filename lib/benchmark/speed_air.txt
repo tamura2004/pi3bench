@@ -1,0 +1,6 @@
+2017/05/14 00:07:15 start connecting
+2017/05/14 00:07:16 transrate: 500.00Kbyte, time: 0.10sec, speed: 38355.94Kbps
+2017/05/14 00:07:19 start connecting
+2017/05/14 00:07:19 transrate: 500.00Kbyte, time: 0.08sec, speed: 47550.64Kbps
+2017/05/14 00:07:22 start connecting
+2017/05/14 00:07:22 transrate: 500.00Kbyte, time: 0.07sec, speed: 55039.76Kbps
