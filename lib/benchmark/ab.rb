@@ -5,4 +5,4 @@
   end
 end
 
-
+# scout mac = 08:60:6e:da:40:38
