@@ -1,0 +1,42 @@
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking pi3 (be patient)
+
+
+Server Software:        nginx/1.6.2
+Server Hostname:        pi3
+Server Port:            80
+
+Document Path:          /
+Document Length:        867 bytes
+
+Concurrency Level:      100
+Time taken for tests:   2.226 seconds
+Complete requests:      300
+Failed requests:        0
+Total transferred:      329700 bytes
+HTML transferred:       260100 bytes
+Requests per second:    134.78 [#/sec] (mean)
+Time per request:       741.948 [ms] (mean)
+Time per request:       7.419 [ms] (mean, across all concurrent requests)
+Transfer rate:          144.65 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       35  209 274.2    108    1124
+Processing:    66  261 250.0    171    1692
+Waiting:       66  260 250.0    171    1692
+Total:        144  469 398.3    290    1988
+
+Percentage of the requests served within a certain time (ms)
+  50%    290
+  66%    403
+  75%    574
+  80%    695
+  90%    955
+  95%   1294
+  98%   1780
+  99%   1855
+ 100%   1988 (longest request)

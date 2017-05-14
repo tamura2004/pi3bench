@@ -5,38 +5,38 @@ Licensed to The Apache Software Foundation, http://www.apache.org/
 Benchmarking pi3 (be patient)
 
 
-Server Software:        
+Server Software:        nginx/1.6.2
 Server Hostname:        pi3
-Server Port:            3000
+Server Port:            80
 
-Document Path:          /pcs
-Document Length:        1172 bytes
+Document Path:          /
+Document Length:        10701 bytes
 
 Concurrency Level:      100
-Time taken for tests:   6.840 seconds
+Time taken for tests:   4.539 seconds
 Complete requests:      300
 Failed requests:        0
-Total transferred:      422100 bytes
-HTML transferred:       351600 bytes
-Requests per second:    43.86 [#/sec] (mean)
-Time per request:       2279.993 [ms] (mean)
-Time per request:       22.800 [ms] (mean, across all concurrent requests)
-Transfer rate:          60.26 [Kbytes/sec] received
+Total transferred:      3280800 bytes
+HTML transferred:       3210300 bytes
+Requests per second:    66.09 [#/sec] (mean)
+Time per request:       1513.072 [ms] (mean)
+Time per request:       15.131 [ms] (mean, across all concurrent requests)
+Transfer rate:          705.83 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        2   18  21.1      5      55
-Processing:   130 1912 689.3   2150    2598
-Waiting:      130 1911 689.3   2149    2598
-Total:        164 1930 674.6   2156    2601
+Connect:       36  246 303.6    187    1340
+Processing:   194  866 438.8    687    2386
+Waiting:      108  317 257.4    272    1838
+Total:        461 1112 491.8    923    3082
 
 Percentage of the requests served within a certain time (ms)
-  50%   2156
-  66%   2309
-  75%   2461
-  80%   2488
-  90%   2521
-  95%   2541
-  98%   2559
-  99%   2581
- 100%   2601 (longest request)
+  50%    923
+  66%   1068
+  75%   1377
+  80%   1610
+  90%   1823
+  95%   2024
+  98%   2437
+  99%   3009
+ 100%   3082 (longest request)
