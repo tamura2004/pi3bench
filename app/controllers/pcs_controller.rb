@@ -3,6 +3,7 @@ class PcsController < ApplicationController
 
   # GET /pcs
   def index
+    `wol 10.88.183.255 08:60:6e:da:40:38`
     @pcs = Pc.all
 
     render json: @pcs
