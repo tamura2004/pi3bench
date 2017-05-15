@@ -1,11 +1,9 @@
-type = "railsapi"
-# type = "static"
-# httpd = "nginx"
-httpd = "puma"
-dbms = "postgres"
-host = "pi3"
-port = "3000"
-url = "pcs"
+type = "static"
+httpd = "nginx"
+dbms = "none"
+host = "localhost"
+port = "80"
+url = "50x.html"
 
 filename = "#{type}_#{host}_#{httpd}_#{dbms}_c100_n300.txt"
 open(filename, "w") do |fh|
