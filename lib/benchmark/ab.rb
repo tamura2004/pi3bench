@@ -1,7 +1,7 @@
-type = "aws_nano_railsapi"
+type = "aws_nano_local"
 httpd = "puma"
 dbms = "postgres"
-host = "speedtest"
+host = "localhost"
 port = "80"
 url = "pcs"
 con = 100
