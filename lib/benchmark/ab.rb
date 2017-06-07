@@ -1,8 +1,8 @@
-type = "railsapi"
+type = "aws_nano_local"
 httpd = "puma"
 dbms = "postgres"
 host = "localhost"
-port = "9999"
+port = "80"
 url = "pcs"
 con = 100
 num = 300
