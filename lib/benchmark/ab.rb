@@ -1,8 +1,8 @@
-type = "aws_nano_local"
+type = "azure_ds1_v2_standard_7740_yen"
 httpd = "puma"
 dbms = "postgres"
 host = "localhost"
-port = "80"
+port = "3000"
 url = "pcs"
 con = 100
 num = 300
